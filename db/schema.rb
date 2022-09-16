@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 2022_09_13_125106) do
   create_table "alerts", force: :cascade do |t|
     t.integer "movie_id"
     t.integer "user_id"
-    t.string "movie_title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
